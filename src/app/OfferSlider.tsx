@@ -11,7 +11,7 @@ export default function OfferSlider() {
                     <Image
                         src="/assets/img/banner.png"
                         width={600}
-                        height={400}
+                        height={300}
                         className="d-block  rounded-3"
                         alt="Offer 1"
                     />
@@ -22,7 +22,7 @@ export default function OfferSlider() {
                     <Image
                         src="/assets/img/banner2.png"
                         width={600}
-                        height={400}
+                        height={300}
                         className="d-block  rounded-3"
                         alt="Offer 1"
                     />
@@ -33,7 +33,7 @@ export default function OfferSlider() {
                     <Image
                         src="/assets/img/banner3.png"
                         width={600}
-                        height={400}
+                        height={300}
                         className="d-block  rounded-3"
                         alt="Offer 1"
                     />
