@@ -23,8 +23,8 @@ function Header() {
                                 <Image src="/assets/img/logo.svg" alt="Cash Karo" width={120} height={50} />
                             </Link>
                         </div>
-                        <div className='col-lg-5 col-md-5 col-12'>
-                            <form className="d-flex my-3" onSubmit={handleSearch}>
+                        <div className='col-lg-8 col-md-5 col-12'>
+                            <form className="d-flex mt-2" onSubmit={handleSearch}>
                                 <input
                                     type="text"
                                     className="form-control me-2"
@@ -37,7 +37,7 @@ function Header() {
                         </div>
                         <div className='col-lg-2 col-md-2 col-12'>
                             <Image src="/assets/img/mobile_toggle.svg" width={30}
-                                height={30} alt='' className="offcanvas offcanvas-end"
+                                height={30} alt='hgf' className="offcanvas offcanvas-end"
                                 tabIndex={-1}
                                 id="offcanvasRight"
                                 aria-labelledby="offcanvasRightLabel" />
