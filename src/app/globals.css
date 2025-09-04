@@ -45,6 +45,42 @@ a {
 .mb{
   margin-bottom: 50px;
 }
+.login-left {
+  width: 40%;
+  background: #fff;
+}
+.login-modal {
+  border-radius: 15px;
+  
+  border: none;
+  max-width: 700px;
+  /* modal width */
+}
+login-right {
+  width: 60%;
+  /* halka greenish background */
+}
+
+.modal-content {
+  padding: 20px;
+  background: #f9fff9;
+}
+
+.btn-close-custom {
+  color: #fff;
+  cursor: pointer;
+  z-index: 10;
+  background: #2ca24c;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 18px;
+  line-height: 1;
+  position: absolute;
+  top: -18px;
+  right: -17px;
+}
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;

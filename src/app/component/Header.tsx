@@ -3,6 +3,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { useState } from "react";
+import LoginModal from "./LoginModal";
 
 function Header() {
     const [query, setQuery] = useState<string>("");
@@ -65,12 +66,7 @@ function Header() {
                         </div>
                         <div className='col-lg-1 col-md-1 col-12'>
                             <div className='logimg mt-3'>
-                                <Image
-                                    src="/assets/img/account_circle.svg"
-                                    width={30}
-                                    height={30}
-                                    alt="toggle"
-                                /> 
+                                <LoginModal/>
                             </div>
                         </div>
                         
