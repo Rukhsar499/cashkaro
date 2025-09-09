@@ -81,8 +81,41 @@ login-right {
   top: -18px;
   right: -17px;
 }
+.footer {
+  background: #f2f2f2;
+  padding: 80px 0px;
+  color: #000;
+}
+
+.footer h3 {
+  font-size: 24px;
+  color: #000;
+}
+
+.footer ul {
+  padding-left: 1rem;
+}
+
+.footrd ul li {
+  padding-bottom: 15px;
+  color: #000;
+  font-size: 14px;
+}
+
+.used {
+  margin-left: 30px;
+}
+
+.imhg {
+  width: 20px;
+  height: 20px;
+}
+
+.social img {
+  margin-right: 10px;
+}
 @media (prefers-color-scheme: dark) {
   html {
-    color-scheme: dark;
+    color-scheme: light;
   }
 }
